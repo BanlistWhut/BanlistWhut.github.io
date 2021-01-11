@@ -17,6 +17,7 @@ module.exports = [
     { text: 'Utils', link: '/frontend/utils/' },
   ]},
   { text: '后端', items: [
+    { text: 'Java', link: '/backend/java/' },
     { text: 'Nodejs', link: '/backend/nodejs/' },
     { text: 'Koa', link: '/backend/koa/' },
     { text: 'Nginx', link: '/backend/nginx/' },

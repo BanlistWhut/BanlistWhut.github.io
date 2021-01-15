@@ -3,7 +3,7 @@ const navConf = require('./config/navConf.js');
 const headConf = require('./config/headConf.js');
 
 module.exports = {
-  title: 'Banlist',
+  title: 'Banlist的藏宝海湾',
   description: 'Banlist的文档, vuepress 文档',
   head: headConf,
   plugins: pluginConf,

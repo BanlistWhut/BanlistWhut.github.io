@@ -67,3 +67,5 @@ typings/
 docs/.vuepress/dist
 docs/.vuepress/dist/
 .temp
+
+.idea

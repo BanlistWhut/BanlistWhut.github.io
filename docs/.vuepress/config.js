@@ -5,6 +5,7 @@ const headConf = require('./config/headConf.js');
 module.exports = {
   title: 'Banlist的藏宝海湾',
   description: 'Banlist的文档, vuepress 文档',
+  base:'./',
   head: headConf,
   plugins: pluginConf,
   themeConfig: {

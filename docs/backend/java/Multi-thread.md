@@ -9,6 +9,14 @@ autoPrev: README
 
 ## springboot 线程池
 
+
+:::tip 最简单的实现
+1. @EnableAsync 注解开启异步，写在启动类上面。
+2. @Async 注解标记异步方法。
+
+:::
+
+### 需要定制线程池参数的实现
 1. springboot 开启多线程配置
 ```java
 package com.xxxx.threadpooldemo.config;

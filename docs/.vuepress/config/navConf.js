@@ -68,7 +68,7 @@ module.exports = [
         link: 'http://ariang.js.org/#!/settings/rpc/set/ws/192.168.3.100/6800/jsonrpc/Yjg4YmYxYmNhMGE0ODYxMDVhMGE='
       },
       {text: 'Transmission', link: 'http://192.168.3.100:9091/'},
-      {text: '北洋园', link: 'https://tjupt.org/torrents.php/'},
+      {text: '北洋园', link: 'https://tjupt.org/torrents.php'},
       {text: 'ok资源网', link: 'https://www.okzy.co/'},
       {text: '参考文档', link: '/wky/'},
 

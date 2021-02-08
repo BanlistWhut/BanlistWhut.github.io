@@ -69,3 +69,5 @@ docs/.vuepress/dist/
 .temp
 
 .idea
+
+deploy.sh

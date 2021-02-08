@@ -70,4 +70,4 @@ docs/.vuepress/dist/
 
 .idea
 
-deploy.sh
+*.sh

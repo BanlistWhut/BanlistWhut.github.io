@@ -2,6 +2,37 @@
 title: 简单打包分析
 ---
 
+## 入口和出口
+
+
+1. 在项目根目录创建webpack配置文件 `webpack.config.js`。
+```js
+const path = require('path');
+
+const htmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+  mode: 'development',
+  // 入口
+  entry: {
+    main: './src/index.js',
+    sub: './src/index.js',
+  },
+  output: {
+    path: path.join(__dirname, 'dist'),
+    filename: '[name].js'
+  },
+  plugins:[
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    })
+  ]
+  
+}
+```
+
+
+
 ## 前置
 
 为了避免模块中文件被 `eval` 包裹导致不便查看，可以在设置中添加 `devtool: 'source-map'`。
